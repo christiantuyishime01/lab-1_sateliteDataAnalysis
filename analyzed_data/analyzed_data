@@ -1,2 +1,0 @@
-#!/bin/bash
-sort -t, -k2,2nr raw_data/satelite_temperature_data.csv | head -n 10 > analyzed_data/highest_temp.csv
